@@ -38,7 +38,7 @@ public class MainView extends VerticalLayout {
 
     public MainView() {
         setHeight("100%");
-        H1 title = new H1("Websocket PUSH on Quarkus 11");
+        H1 title = new H1("Websocket PUSH on Quarkus");
         add(title);
 
         updateTasksStatus();
